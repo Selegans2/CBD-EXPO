@@ -1,0 +1,151 @@
+.conditionsContent{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;  
+    margin-top: 5em;
+    margin-bottom: -5em;
+
+    @media (max-width: 1400px) {
+        display: none;
+    }
+}
+
+.conditionsInstructions{
+
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgba(199, 189, 111, 0.4);
+    padding-top: 82px;
+    padding-bottom: 200px;
+
+    p{
+        font-weight: 800;
+        color: white;
+        font-size: 25px;
+    }
+}
+
+.conditionsInstructionsContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-width: 75%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.conditionsInstructionsText{
+    display: flex;
+    flex-direction: row;
+    max-width: 28em;
+    align-items: center;
+    scale: 0.90;
+
+    p:nth-child(1){
+        font-size: 84px;
+        font-weight: 800;
+        margin-right: 0.1em;
+    }
+
+    p:nth-child(2){
+        font-size: 23px;
+        margin-top: 0.5em;
+    }
+}
+
+.conditionsTerms{
+    background-color: white;
+    width: 1367px;
+    height: 650px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    bottom: 8em;
+
+    .conditionsTermsTitle{
+        color: black;
+        font-weight: 800;
+        font-size: 30px;
+        margin-top: 92px;
+        margin-bottom: 1.25em;
+    }
+}
+
+
+.conditionsTermsSection{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 35em;
+    margin-bottom: 1.5em;
+
+    .conditionsTermsIcon{
+        margin-right: 1em;
+        img{
+            width: 2.5em;
+        }
+    }
+}
+
+.conditionsTermsText{
+
+    p:nth-child(1){
+        font-size: 18px;
+        font-weight: 800;
+        color: #C7BD6F;
+        text-transform: uppercase;
+    }
+
+    p:nth-child(2){
+        font-size: 18px;
+        font-weight: normal;
+        color: black;
+
+        span{
+            font-weight: bold;
+        }
+    }
+
+    .conditionsTermsSubtext{
+
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        div:nth-child(1){
+            color: gray;
+            margin-right: 0.2em;
+        }
+
+        p:nth-child(1){
+            font-size: 18px;
+            font-weight: normal;
+            color: black;
+            text-transform: none;
+    
+            span{
+                font-weight: bold;
+            }  
+        }
+    }
+
+}
+
+
+.conditionsTermsMainContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.conditionsTermsContainer{
+    max-width: 40%;
+}

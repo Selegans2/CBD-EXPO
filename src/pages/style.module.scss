@@ -1,0 +1,14 @@
+.homeBody{
+    margin: 0;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+
+    font-family: 'Montserrat', sans-serif;
+
+    @media (max-width: 900px) {
+        display: flex;
+        align-items: center;
+    }
+}

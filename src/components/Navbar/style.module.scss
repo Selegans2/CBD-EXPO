@@ -1,0 +1,66 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;   
+    align-items: center;
+    min-width: 100%;
+    justify-content: space-around;
+
+    @media (max-width: 900px) {
+        display: none;
+    }
+}
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+
+    @media (max-width: 1850px) {
+        display: flex;
+        justify-content: space-between;
+        min-width: 100%;
+    }
+}
+
+.navLogo{
+    img{
+        width: 200px;
+        height: 60px;
+        margin-left: 49px;
+    }
+}
+
+.navOptions{
+    margin-left: 400px;
+    
+    @media (max-width: 1850px) {
+        display: none;
+    }
+    
+    a{
+        text-decoration: none;
+        text-transform: uppercase;  
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: 84px;
+    }
+}
+
+.navBurgerMenu{
+    @media (min-width: 1851px) {
+        display: none;
+    }
+
+    @media (max-width: 1850px) {
+        display: block;
+    }
+
+    img{
+        width: 60px;
+        height: 60px;
+        margin-right: 4em;
+    }
+}

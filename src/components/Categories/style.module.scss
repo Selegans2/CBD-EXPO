@@ -1,0 +1,217 @@
+.categoryContent{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;  
+    margin-top: 5em;
+
+    @media (max-width: 1400px) {
+        display: none;
+    }
+}
+
+.categoryList{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(10, 33, 17, 0.5);
+    padding-top: 67px;
+    padding-bottom: 135px;
+
+    p{
+        font-weight: 800;
+        color: white;
+        font-size: 25px;
+    }
+}
+
+.categoryListIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+
+    @media (max-width: 1550px) {
+        scale: 0.85;
+    }
+}
+
+.icon{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    p{
+        font-weight: bold;
+        font-size: 17px;
+        max-width: 110px;
+        text-align: center;
+        color: white;
+        margin: 0;
+        padding: 0;
+        line-height: 1em;
+    }
+
+    img{
+        height: 12em;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.categoryNominations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -6em;
+}
+
+.nomination{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    min-width: 70%;
+    min-height: 200px;
+    border-radius: 15px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 77px;
+}
+
+.nomintationTitle{
+
+    display: flex;
+    align-items: center;
+    background-color: #C7BD6F;
+    border-radius: 10px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 32px;
+    padding-left: 32px;
+
+    position: relative;
+    right: 2.5em;
+    
+    p{
+        font-weight: 800;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: white;
+    }
+}
+
+.nomintationSelect{
+    width: 500px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    //background-image: url(...);   /* Add custom arrow */
+    width: 480px;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+    font-style: italic;
+    color: #555555;
+    outline: none;
+    border: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='35' viewBox='0 0 24 24' width='35' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+}
+
+.nomintationSelect:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid black;
+    border-color: #fff transparent transparent transparent;
+  }
+
+.nominationInput{
+    margin-right: 45px;
+    margin-bottom: 1em;
+
+    p{
+        color: red;
+        font-size: 12px;
+        font-style: italic;
+    }
+}
+
+.nominationInput input[type=text] {
+    width: 480px;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+    font-style: italic;
+    color: #555555;
+    outline: none;
+    border: none;
+}
+
+.nominationInput input[type=text]:focus{
+    outline: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.nominationInputSmall input[type=text] {
+    width: 330px;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+    font-style: italic;
+    color: #555555;
+    outline: none;
+    border: none; 
+}
+
+input[type=text]::-webkit-input-placeholder::first-letter {
+    color: red;
+    text-decoration:underline; 
+}
+
+.nominationInputSmall input[type=text]:focus{
+    outline: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.submitButton{
+    background-color: #38D430; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 19px 87px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 800;
+
+    &:hover {
+        cursor:pointer;
+       }
+}
