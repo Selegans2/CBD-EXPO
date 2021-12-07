@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CBD-EXPO/static/css/main.f303124d.chunk.css",
-    "main.js": "/CBD-EXPO/static/js/main.9db1e8b5.chunk.js",
-    "main.js.map": "/CBD-EXPO/static/js/main.9db1e8b5.chunk.js.map",
+    "main.css": "/CBD-EXPO/static/css/main.41e1e60d.chunk.css",
+    "main.js": "/CBD-EXPO/static/js/main.1f5675c1.chunk.js",
+    "main.js.map": "/CBD-EXPO/static/js/main.1f5675c1.chunk.js.map",
     "runtime-main.js": "/CBD-EXPO/static/js/runtime-main.eee5b2b4.js",
     "runtime-main.js.map": "/CBD-EXPO/static/js/runtime-main.eee5b2b4.js.map",
     "static/js/2.076c56c5.chunk.js": "/CBD-EXPO/static/js/2.076c56c5.chunk.js",
     "static/js/2.076c56c5.chunk.js.map": "/CBD-EXPO/static/js/2.076c56c5.chunk.js.map",
     "index.html": "/CBD-EXPO/index.html",
-    "static/css/main.f303124d.chunk.css.map": "/CBD-EXPO/static/css/main.f303124d.chunk.css.map",
+    "static/css/main.41e1e60d.chunk.css.map": "/CBD-EXPO/static/css/main.41e1e60d.chunk.css.map",
     "static/js/2.076c56c5.chunk.js.LICENSE.txt": "/CBD-EXPO/static/js/2.076c56c5.chunk.js.LICENSE.txt",
     "static/media/background.3dddb486.jpg": "/CBD-EXPO/static/media/background.3dddb486.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.eee5b2b4.js",
     "static/js/2.076c56c5.chunk.js",
-    "static/css/main.f303124d.chunk.css",
-    "static/js/main.9db1e8b5.chunk.js"
+    "static/css/main.41e1e60d.chunk.css",
+    "static/js/main.1f5675c1.chunk.js"
   ]
 }
