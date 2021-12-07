@@ -54,13 +54,14 @@ const Categories = props => {
 
             <div className={style.categoryNominations}>
 
+                <form className={style.categoryForm}>
 
                 <div className={style.nomination}>
                     <div className={style.nomintationTitle}>
                         <p> Nomination #1 </p>
                     </div>
 
-                    <select className={style.nomintationSelect}>
+                    <select className={style.nomintationSelect} required>
                         <option value="0">*Select the category:</option>
                         <option value="1">CBD Vape</option>
                         <option value="2">CBD Edible</option>
@@ -69,7 +70,7 @@ const Categories = props => {
 
                     <div className={style.nominationInput}>
                         <p> *Votes for duplicate products will not be considered </p>
-                        <input type="text" id="lname" name="lastname" placeholder="*Write the product name here" />
+                        <input type="text" id="lname" name="lastname" placeholder="*Write the product name here" required/>
                     </div>
                 </div>
 
@@ -78,7 +79,7 @@ const Categories = props => {
                         <p> Nomination #2 </p>
                     </div>
 
-                    <select className={style.nomintationSelect}>
+                    <select className={style.nomintationSelect} required>
                         <option value="0">*Select the category:</option>
                         <option value="1">CBD Vape</option>
                         <option value="2">CBD Edible</option>
@@ -87,7 +88,7 @@ const Categories = props => {
 
                     <div className={style.nominationInput}>
                         <p> *Votes for duplicate products will not be considered </p>
-                        <input type="text" id="lname" name="lastname" placeholder="*Write the product name here" />
+                        <input type="text" id="lname" name="lastname" placeholder="*Write the product name here" required/>
                     </div>
                 </div>
 
@@ -96,7 +97,7 @@ const Categories = props => {
                         <p> Nomination #3 </p>
                     </div>
 
-                    <select className={style.nomintationSelect}>
+                    <select className={style.nomintationSelect} required>
                         <option value="0">*Select the category:</option>
                         <option value="1">CBD Vape</option>
                         <option value="2">CBD Edible</option>
@@ -105,30 +106,33 @@ const Categories = props => {
 
                     <div className={style.nominationInput}>
                         <p> *Votes for duplicate products will not be considered </p>
-                        <input type="text" id="lname" name="lastname" placeholder="*Write the product name here" />
+                        <input type="text" id="lname" name="lastname" placeholder="*Write the product name here" required/>
                     </div>
                 </div>
 
+                
                 <div className={style.nomination}>
                     <div className={style.nomintationTitle}>
                         <p> Contact Info </p>
                     </div>
 
+                    
                     <div className={style.nominationInputSmall}>
-                        <input type="text" id="lname" name="lastname" placeholder="*Full Name" />
+                        <input type="text" id="lname" name="lastname" placeholder="*Full Name" required/>
                     </div>
 
                     <div className={style.nominationInputSmall}>
-                        <input type="text" id="lname" name="lastname" placeholder="*Phone" />
+                        <input type="text" id="lname" name="lastname" placeholder="*Phone" required/>
                     </div>
 
                     <div className={style.nominationInputSmall} style={{marginRight:"2em"}}>
-                        <input type="text" id="lname" name="lastname" placeholder="*Email" />
+                        <input type="text" id="lname" name="lastname" placeholder="*Email" required/>
                     </div>
 
                 </div>
                 
                 <button className={style.submitButton}> SUBMIT </button>
+                </form>
                 
             </div>
         </div>

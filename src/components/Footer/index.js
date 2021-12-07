@@ -41,10 +41,9 @@ const Footer = props => {
                 </div>
 
                 <div className={style.footerBodyList}>
-                    <p> UPCOMING SHOWS </p>
-                    <a href="#"> ATLANTA 2021 </a>
-                    <a href="#"> MEDELLIN 2021 </a>
-                    <a href="#"> CHICAGO 2021 </a>
+                    <p> CONTACT US </p>
+                    <a href="#"> FAQ </a>
+                    <a href="#"> Tax & Sampling Information </a>
                 </div>
 
             </div>
