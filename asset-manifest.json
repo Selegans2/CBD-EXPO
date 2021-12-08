@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CBD-EXPO/static/css/main.4e0b3645.chunk.css",
+    "main.css": "/CBD-EXPO/static/css/main.b32e8f69.chunk.css",
     "main.js": "/CBD-EXPO/static/js/main.2d046ad1.chunk.js",
     "main.js.map": "/CBD-EXPO/static/js/main.2d046ad1.chunk.js.map",
     "runtime-main.js": "/CBD-EXPO/static/js/runtime-main.eee5b2b4.js",
@@ -8,14 +8,14 @@
     "static/js/2.076c56c5.chunk.js": "/CBD-EXPO/static/js/2.076c56c5.chunk.js",
     "static/js/2.076c56c5.chunk.js.map": "/CBD-EXPO/static/js/2.076c56c5.chunk.js.map",
     "index.html": "/CBD-EXPO/index.html",
-    "static/css/main.4e0b3645.chunk.css.map": "/CBD-EXPO/static/css/main.4e0b3645.chunk.css.map",
+    "static/css/main.b32e8f69.chunk.css.map": "/CBD-EXPO/static/css/main.b32e8f69.chunk.css.map",
     "static/js/2.076c56c5.chunk.js.LICENSE.txt": "/CBD-EXPO/static/js/2.076c56c5.chunk.js.LICENSE.txt",
     "static/media/background.3dddb486.jpg": "/CBD-EXPO/static/media/background.3dddb486.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.eee5b2b4.js",
     "static/js/2.076c56c5.chunk.js",
-    "static/css/main.4e0b3645.chunk.css",
+    "static/css/main.b32e8f69.chunk.css",
     "static/js/main.2d046ad1.chunk.js"
   ]
 }
